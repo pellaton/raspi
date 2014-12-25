@@ -10,5 +10,6 @@ def __Main():
   
 try:
   __Main()
+  GPIO.cleanup()
 except KeyboardInterrupt:
   GPIO.cleanup()
